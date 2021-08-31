@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.App .table-container {
+  height: 450px;
+  width: 300px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.App .table-container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.App .table-container::-webkit-scrollbar-thumb {
+  background-color: #8e8e8e;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .App .table-container {
+    height: 400px;
+    width: 250px;
+  }
+  .table-title {
+    padding: 0.8rem 1rem;
+  }
+}

@@ -1,0 +1,40 @@
+.table .table-contents {
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.table .table-contents .table-item {
+  display: block;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #000;
+  padding: 0.2rem 0;
+}
+
+.table .table-title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+  background: #f7f8fa;
+  color: #031741;
+  padding: 0.8rem 1.2rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 8px;
+}
+.arrow > svg {
+  width: 20px;
+  transition: 0.5s ease-in-out;
+}
+.arrow > svg > path {
+  color: #8e8e8e;
+}
+.arrow-down > svg {
+  transform: rotate(90deg);
+}
